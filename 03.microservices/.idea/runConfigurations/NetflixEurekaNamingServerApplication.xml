@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="NetflixEurekaNamingServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="netflix-eureka-naming-server" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.in28minutes.microservices.netflixeurekanamingserver.NetflixEurekaNamingServerApplication" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

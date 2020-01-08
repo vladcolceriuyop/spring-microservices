@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="CurrencyConversionServiceApplication_0" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="CurrencyConversionConfigurations">
+    <module name="currency-conversion-service" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.in28minutes.microservices.currencyconversionservice.CurrencyConversionServiceApplication" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

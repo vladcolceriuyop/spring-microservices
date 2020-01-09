@@ -17,7 +17,7 @@
     <bytecodeTargetLevel>
       <module name="03.microservices" target="1.8" />
       <module name="currency-conversion-service" target="11" />
-      <module name="currency-exchange-service" target="11" />
+      <module name="currency-exchange-service" target="1.8" />
       <module name="limits-service" target="11" />
       <module name="netflix-eureka-naming-server" target="11" />
       <module name="netflix-zuul-api-gateway-server" target="11" />

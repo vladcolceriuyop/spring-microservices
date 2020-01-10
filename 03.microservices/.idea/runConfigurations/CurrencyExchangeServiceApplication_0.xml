@@ -2,6 +2,7 @@
   <configuration default="false" name="CurrencyExchangeServiceApplication_0" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="CurrencyExchangeConfigurations">
     <module name="currency-exchange-service" />
     <option name="SPRING_BOOT_MAIN_CLASS" value="com.in28minutes.microservices.currencyexchangeservice.CurrencyExchangeServiceApplication" />
+    <option name="ACTIVE_PROFILES" value="chaos-monkey" />
     <option name="ALTERNATIVE_JRE_PATH" />
     <method v="2">
       <option name="Make" enabled="true" />

@@ -2,12 +2,18 @@
   <configuration default="false" name="CurrencyExchangeServiceApplication_1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="CurrencyExchangeConfigurations">
     <module name="currency-exchange-service" />
     <option name="SPRING_BOOT_MAIN_CLASS" value="com.in28minutes.microservices.currencyexchangeservice.CurrencyExchangeServiceApplication" />
+    <option name="ACTIVE_PROFILES" value="chaos-monkey" />
     <option name="ALTERNATIVE_JRE_PATH" />
     <additionalParameters>
       <param>
         <option name="enabled" value="true" />
         <option name="name" value="server.port" />
         <option name="value" value="8001" />
+      </param>
+      <param>
+        <option name="enabled" value="true" />
+        <option name="name" value="chaos.monkey.enabled" />
+        <option name="value" value="true" />
       </param>
     </additionalParameters>
     <method v="2">

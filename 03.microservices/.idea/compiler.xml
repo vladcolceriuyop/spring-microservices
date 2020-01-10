@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="netflix-zuul-api-gateway-server" />
+        <module name="netflix-zipkin-server-1" />
         <module name="netflix-eureka-naming-server" />
         <module name="currency-conversion-service" />
         <module name="currency-exchange-service" />
@@ -20,6 +21,7 @@
       <module name="currency-exchange-service" target="1.8" />
       <module name="limits-service" target="11" />
       <module name="netflix-eureka-naming-server" target="11" />
+      <module name="netflix-zipkin-server-1" target="11" />
       <module name="netflix-zuul-api-gateway-server" target="11" />
       <module name="spring-cloud-config-server" target="11" />
     </bytecodeTargetLevel>
@@ -30,6 +32,7 @@
       <module name="currency-exchange-service" options="-parameters" />
       <module name="limits-service" options="-parameters" />
       <module name="netflix-eureka-naming-server" options="-parameters" />
+      <module name="netflix-zipkin-server-1" options="-parameters" />
       <module name="netflix-zuul-api-gateway-server" options="-parameters" />
       <module name="spring-cloud-config-server" options="-parameters" />
     </option>

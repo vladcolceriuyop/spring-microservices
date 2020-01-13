@@ -8,15 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="netflix-zuul-api-gateway-server" />
         <module name="netflix-zipkin-server-1" />
+        <module name="byte-monkey" />
         <module name="netflix-eureka-naming-server" />
         <module name="currency-conversion-service" />
         <module name="currency-exchange-service" />
-        <module name="limits-service" />
-        <module name="spring-cloud-config-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="03.microservices" target="1.8" />
+      <module name="byte-monkey" target="1.8" />
       <module name="currency-conversion-service" target="11" />
       <module name="currency-exchange-service" target="1.8" />
       <module name="limits-service" target="11" />
@@ -28,6 +28,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="byte-monkey" options="-XDignore.symbol.file" />
       <module name="currency-conversion-service" options="-parameters" />
       <module name="currency-exchange-service" options="-parameters" />
       <module name="limits-service" options="-parameters" />
